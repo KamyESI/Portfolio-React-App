@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { Footer } from "./Footer";
+import { Main } from "./Main";
+import { Home } from "./Home";
+import { Contact } from "./Contact";
+import { Projects } from "./Projects";
+import { About } from "./About";
+import { Header } from "./Header";
+import "./index.css";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-orange-500">
-        Hello world!
-      </h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
