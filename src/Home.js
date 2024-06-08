@@ -1,4 +1,5 @@
 import React from "react";
+
 export function Home({}) {
   return (
     <section
@@ -12,6 +13,15 @@ export function Home({}) {
       <a
         href="#portfolio"
         id="home_btn"
+        onMouseEnter={() => {
+          document.getElementById("arrow").style.transform = "rotate(90deg)";
+        }}
+        onMouseLeave={() => {
+          document.getElementById("arrow").style.transform = "rotate(0deg)";
+        }}
+        onClick={() => {
+          document.getElementById("header").style.display = "block";
+        }}
         class="transition-all duration-300 border text-white py-2 px-8 hover:bg-teal-500 hover:border-teal-500"
       >
         View my work &nbsp;&nbsp;&nbsp;
