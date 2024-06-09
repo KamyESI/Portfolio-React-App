@@ -8,6 +8,9 @@ export function Header({}) {
       <button
         id="hamburger-wrapper"
         class="w-7 h-5 absolute top-2 right-6 sm:hidden"
+        onClick={() => {
+          document.getElementById("hamburger-menu").style.display = "block";
+        }}
       >
         <div
           id="hamburger"
@@ -20,23 +23,52 @@ export function Header({}) {
       >
         <ul class="flex flex-col items-start text-white gap-8">
           <li class="hover:text-pink-600">
-            <a id="nav_link_home" href="#home">
+            <a
+              id="nav_link_home"
+              href="#home"
+              onClick={() => {
+                document.getElementById("hamburger-menu").style.display =
+                  "none";
+                document.getElementById("header").style.display = "none";
+              }}
+            >
               HOME
             </a>
           </li>
           <li class="hover:text-pink-600">
-            <a id="nav_link_about" href="#about">
+            <a
+              id="nav_link_about"
+              href="#about"
+              onClick={() => {
+                document.getElementById("hamburger-menu").style.display =
+                  "none";
+              }}
+            >
               ABOUT
             </a>
           </li>
           <li class="hover:text-pink-600">
-            <a id="nav_link_portfolio" href="#portfolio">
+            <a
+              id="nav_link_portfolio"
+              href="#portfolio"
+              onClick={() => {
+                document.getElementById("hamburger-menu").style.display =
+                  "none";
+              }}
+            >
               PROJECTS
             </a>
           </li>
 
           <li class="hover:text-pink-600">
-            <a id="nav_link_contact" href="#contact">
+            <a
+              id="nav_link_contact"
+              href="#contact"
+              onClick={() => {
+                document.getElementById("hamburger-menu").style.display =
+                  "none";
+              }}
+            >
               CONTACT
             </a>
           </li>
