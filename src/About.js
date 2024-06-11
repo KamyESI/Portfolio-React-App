@@ -1,4 +1,7 @@
 import React from "react";
+
+import img1 from "./img/kamilia.png";
+
 export function About({}) {
   return (
     <section
@@ -50,7 +53,7 @@ export function About({}) {
       <figure class="profile_photo rounded-full flex flex-col items-center">
         <img
           class="rounded-full mb-6 w-1/3"
-          src="img/kamilia.png"
+          src={img1}
           alt="personal photo"
           srcset=""
         />
