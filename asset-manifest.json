@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React-App/static/css/main.c706ef88.css",
-    "main.js": "/Portfolio-React-App/static/js/main.62600b4d.js",
+    "main.js": "/Portfolio-React-App/static/js/main.b049d809.js",
+    "static/media/kamilia.png": "/Portfolio-React-App/static/media/kamilia.584386362eb01380e06e.png",
     "index.html": "/Portfolio-React-App/index.html",
     "main.c706ef88.css.map": "/Portfolio-React-App/static/css/main.c706ef88.css.map",
-    "main.62600b4d.js.map": "/Portfolio-React-App/static/js/main.62600b4d.js.map"
+    "main.b049d809.js.map": "/Portfolio-React-App/static/js/main.b049d809.js.map"
   },
   "entrypoints": [
     "static/css/main.c706ef88.css",
-    "static/js/main.62600b4d.js"
+    "static/js/main.b049d809.js"
   ]
 }
