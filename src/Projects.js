@@ -1,5 +1,11 @@
 import React from "react";
 
+import img1 from "./img/responsive.jpg";
+import img2 from "./img/food.jpg";
+import img3 from "./img/relic.png";
+import img4 from "./img/privacy.webp";
+import img5 from "./img/walkTracker.webp";
+
 export function Projects({}) {
   return (
     <section
@@ -17,7 +23,7 @@ export function Projects({}) {
         >
           <img
             class="rounded"
-            src="img/responsive.jpg"
+            src={img1}
             alt="responsive screens photo"
             srcset=""
           />
@@ -42,7 +48,7 @@ export function Projects({}) {
         >
           <img
             class="rounded h-full"
-            src="img/food.jpg"
+            src={img2}
             alt="responsive screens photo"
             srcset=""
           />
@@ -67,7 +73,7 @@ export function Projects({}) {
         >
           <img
             class="rounded h-full"
-            src="img/relic.png"
+            src={img3}
             alt="responsive screens photo"
             srcset=""
           />
@@ -92,7 +98,7 @@ export function Projects({}) {
         >
           <img
             class="rounded h-full"
-            src="img/privacy.webp"
+            src={img4}
             alt="responsive screens photo"
             srcset=""
           />
@@ -115,7 +121,7 @@ export function Projects({}) {
         >
           <img
             class="rounded h-full"
-            src="img/walkTracker.webp"
+            src={img5}
             alt="responsive screens photo"
             srcset=""
           />
